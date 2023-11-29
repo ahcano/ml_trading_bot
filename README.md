@@ -1,8 +1,19 @@
 # MACHINE LEARNING TRADING BOT
-This solution is intended for use of a financial advisor, leveraging trading algorithms to buy and sell assets automatically. The bot follows trading signals that can adapt to new market data.
+This solution is a bot capable of providing financial services, leveraging machine learning algorightms to pick up trading signals from the market and automatically buy and sell assets.  
 
-# Contributor
-## Ana Cano - Author
+Step 1: Import the OHLCV dataset into a Pandas DataFrame
+Step 2: Generate trading signals using short- and long-window SMA values
+<img width="430" alt="Screenshot 2023-11-28 210418" src="https://github.com/ahcano/ml_trading_bot/assets/141194281/565be512-2a9d-43f7-8003-aa4a1c8ce649">
+Step 3: Split the data into training and testing datasets
+Step 4: Use the SVC classifier model from SKLearn's support vector machine (SVM) learning method to fit the training data and make predictions based on the testing data. Review the predictions.
+Step 5: Review the classification report associated with the SVC model predictions.
+Step 6: Create a predictions DataFrame that contains columns for “Predicted” values, “Actual Returns”, and “Strategy Returns”
+Step 7: Create a cumulative return plot that shows the actual returns vs. the strategy returns. Save a PNG image of this plot. This will serve as a baseline against which to compare the effects of tuning the trading algorithm
+Tune the Baseline Trading Algorithm
+Evaluate a New Machine Learning Classifier
+
+# Author
+## Ana Cano
 
 # License
 ## 
