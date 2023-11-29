@@ -1,5 +1,5 @@
 # MACHINE LEARNING TRADING BOT
-This solution is intended for use of a financial advisor, leveraging trading algorithms to buy and sell assets automatically. The bot follows trading signals that can adapt to new market data.
+This solution is a bot capable of providing financial services, leveraging machine learning algorightms to pick up trading signals from the market and automatically buy and sell assets.  
 
 # Contributor
 ## Ana Cano - Author
